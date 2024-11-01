@@ -1,3 +1,7 @@
 # app_monitoria_dpd
 
-A new Flutter project.
+### Lista items (Tarefas)
+- [x] criar projeto em flutter
+- [] Estilização e criação layout
+- [] Conexão com api (banco de dados)
+
