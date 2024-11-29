@@ -1,3 +1,4 @@
+import 'package:app_monitoria_dpd/views/monitor_list.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +12,12 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false, // tira o banner de debug da tela
-      theme: ThemeData(primarySwatch: Colors.amber),
+      darkTheme: ThemeData(
+        colorSchemeSeed: Colors.purple,
+        useMaterial3: true,
+        brightness: Brightness.light // muda cor de fundo
+      ),
+      home: const MonitorList(),
     );
   }
 }
